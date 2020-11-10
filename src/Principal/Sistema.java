@@ -14,7 +14,7 @@ import Leche.*;
  */
 public class Sistema {
     public static void main(String [ ] args){
-        // Producir un helado de vainilla y una torta de chocolate, 
+ /**       // Producir un helado de vainilla y una torta de chocolate, 
         // a ambos agregarles CREMA y FRUTILLAS
         // y cambiar el tipo de leche por Leche Descremada
         // Finalmente mostrar el precio final de cada uno
@@ -37,6 +37,8 @@ public class Sistema {
 //        mnj_leche.cambiarTipoLeche(leche, pastel_chocolate);
         System.out.println(helado_vainilla.showPrecioFinal());
         
-        
+      **/  
+    	Postre h = new Helado("Choco");
+    	System.out.println(h);
     }
 }
