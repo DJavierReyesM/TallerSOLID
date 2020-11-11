@@ -22,23 +22,25 @@ public abstract class Postre {
         this.sabor=sabor;
     
     }
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
-        return precioFinal;
-    }
+    
+    
 
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
     }
     
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
-    }
+   
     
     @Override
     public String toString() {
         return "{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
+    }
+    public double getPrecio() {
+        return this.precioParcial;
+    }
+            
+    public double getPrecioParcial() {
+        return precioParcial;
     }
    
 }
