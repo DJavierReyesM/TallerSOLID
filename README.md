@@ -1,9 +1,15 @@
 # TallerSOLID
-
+### Literal 1. Hecho por Diego Javier Reyes Medranda
 1.-Se está violando el "Open-Closed Principle (OCP)" puesto que la funcionalidad de las clases Pastel y Helado es demasiado similar y se está quemando código, de tal forma que si se debe añadir una funcionalidad a futuro se deberían modificar ambas clases, lo cuál no es pertinente. Lo más óptimo es emplear una clase padre como Postre que tenga todas las funcionalidades generales de Pastel y Helado, que estas últimas hereden de Postre y se extienda su funcionalidad de forma más especifica según los requerimientos necesarios como lo es en el caso del precioParcial, asegurandonos también de no violar el "Liskov Substitution Principle" en el proceso por el tema de la herencia.
 
+<<<<<<< HEAD
 ### Litaral 4. ENUM ADICIONALES Hecho by Gilson Ponce Briones
  -------------
+=======
+`Añadido` Clase Abstracta Postre
+
+###### ENUM ADICIONALES 4
+>>>>>>> 0b84f907001d711eacfdcd92dfd5da40c2e52673
 :eyeglasses: Se está violando el principio "Dependecy Inversion Principle (DIP)" 
 El ENUM puede que este muy desacoplado, ya que si queremos trabajar
 en cada uno de los tipos de aderezo que existe, no se podra y no permitira el optimo 
