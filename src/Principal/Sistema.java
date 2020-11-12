@@ -8,6 +8,7 @@ import Adicionales.*;
 import Postres.*;
 import Procesos.*;
 import Leche.*;
+import java.util.ArrayList;
 /**
  *
  * @author djurado
@@ -17,7 +18,7 @@ public class Sistema {
       // Producir un helado de vainilla y una torta de chocolate, 
         // a ambos agregarles CREMA y FRUTILLAS
         // y cambiar el tipo de leche por Leche Deslactosada
-       // ArrayList<Postre> arrPostres = new ArrayList<>();
+        ArrayList<Postre> arrPostres = new ArrayList<>();
         ManejadorDeLeche mnj_leche = new ManejadorDeLeche(new LecheDescremada());
         
         // Producir Helado

@@ -23,7 +23,7 @@ public class ManejadorDeLeche {
     }
 
     
-    public void cambiarTipoLeche(Object postre){
+    public void cambiarTipoLeche(Postre postre){
         // Cambiar tipo de leche en la preparación de los postres, usar leche deslactosada
         System.out.println(postre.getClass());
        // System.out.println(Helado.class);
