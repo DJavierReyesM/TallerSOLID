@@ -1,7 +1,5 @@
 package Leche;
 
-import Postres.*;
-
 /**
  *
  * @author Ana Briones

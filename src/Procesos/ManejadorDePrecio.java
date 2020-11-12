@@ -4,7 +4,7 @@ import Postres.Postre;
 
 /**
  *
- * @author Milen Ortega Hp
+ * @author Milen Ortega
  */
 public class ManejadorDePrecio {
 

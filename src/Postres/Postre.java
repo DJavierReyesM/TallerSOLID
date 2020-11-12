@@ -21,11 +21,11 @@ public abstract class Postre {
 		return this.aderezos;
 	}
 
-	public void addAderezos(Aderezo aderezo) {
+	public void agregarAderezo(Aderezo aderezo) {
 		this.aderezos.add(aderezo);
 	}
 
-	public void quitarAderezos(Aderezo aderezo) {
+	public void quitarAderezo(Aderezo aderezo) {
 		this.aderezos.remove(aderezo);
 	}
 
