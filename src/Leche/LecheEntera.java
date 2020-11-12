@@ -2,8 +2,15 @@ package Leche;
 
 import Postres.*;
 
+/**
+ *
+ * @author Ana Briones
+ */
 public abstract class LecheEntera {
 	public abstract void usarHelado();
 
-	public abstract void usarPastel();
+	public void usarPastel() {
+		System.out.println("Usando leche descremada");
+	}
+
 }

@@ -11,7 +11,10 @@ package Adicionales;
  */
 
 public abstract class Aderezo {
-	private String nombre;
+	protected String nombre;
+
+	public Aderezo() {
+	}
 
 	public Aderezo(String nombre) {
 		this.nombre = nombre;
