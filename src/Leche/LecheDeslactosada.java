@@ -7,7 +7,7 @@ package Leche;
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Ana Briones 
  */
 public class LecheDeslactosada extends LecheEntera {
     
@@ -15,11 +15,6 @@ public class LecheDeslactosada extends LecheEntera {
     public void usarHelado() {
         System.out.println("Usando leche deslactosada");
     }
-
-    @Override
-    public void usarPastel() {
-        // Lanzar error No se puede usar en pastel
-        throw new RuntimeException(this.getClass() + ": No se puede usar en pastel");
-    }
+    
         
 }
