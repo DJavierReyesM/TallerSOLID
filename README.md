@@ -22,6 +22,6 @@ No es necesario que la clase Procesos.OperacionesAderezo puesto que en la clase 
 
 Además viola el principio de inversión de dependencias o Dependency Inversion Principle(DIP) porque ya que las clases Postres.Helado y Postres.Pastel dependen de esta clase no abstracta para la usar sus operaciones correspondientes para añadir y quitar aderezo.
 
-`Añadido` Funciones agregarAderezo y quitarAderezo en la clase Postres.Postre
+`Añadido` Funciones addAderezos y quitarAderezos en la clase Postres.Postre
 
 `Eliminado` Clase Procesos.OperacionesAderezo
