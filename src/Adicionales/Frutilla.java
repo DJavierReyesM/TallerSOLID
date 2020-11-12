@@ -22,7 +22,7 @@ public class Frutilla extends Aderezo{
     
     @Override
     public void setNombre(){
-       this.nombre = "Frutilla";
+       super.nombre = "Frutilla";
     };
 
 
