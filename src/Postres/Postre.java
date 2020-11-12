@@ -21,12 +21,12 @@ public abstract class Postre {
 		return this.aderezos;
 	}
 
-	public void addAderezos(Postre postre, Aderezo aderezo) {
-		postre.getAderezos().add(aderezo);
+	public void addAderezos(Aderezo aderezo) {
+		this.aderezos.add(aderezo);
 	}
 
-	public void quitarAderezos(Postre postre, Aderezo aderezo) {
-		postre.getAderezos().remove(aderezo);
+	public void quitarAderezos(Aderezo aderezo) {
+		this.aderezos.remove(aderezo);
 	}
 
 	@Override
