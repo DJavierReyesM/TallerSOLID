@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Principal;
-import Adicionales.Aderezo;
+import Adicionales.*;
 import Postres.*;
 import Procesos.*;
 import Leche.*;
@@ -21,20 +21,20 @@ public class Sistema {
         ManejadorDeLeche mnj_leche = new ManejadorDeLeche(new LecheDescremada());
         
         // Producir Helado
-      /*  Postre helado_vainilla = new Helado("Vainilla");
-        arrPostres.add(helado_vainilla);
-         Producir Pastel
-        Postre pastel_chocolate = new Pastel("Chocolate");
-        arrPostres.add(pastel_chocolate);
-       */
+       Postre helado_vainilla = new Helado("Vainilla");
+       arrPostres.add(helado_vainilla);
+       // Producir Pastel
+      Postre pastel_chocolate = new Pastel("Chocolate");
+      arrPostres.add(pastel_chocolate);
+       
         
-        /*arrPostres.forEach(postre -> {
+          arrPostres.forEach(postre -> {
             postre.addAderezos(new Crema());
             postre.addAderezos(new Frutilla());
             System.out.println(postre);
             mnj_leche.cambiarTipoLeche(postre);
             System.out.println(ManejadorDePrecio.showPrecioFinal(postre));
-        });   */     
+        });        
 
     
     }
